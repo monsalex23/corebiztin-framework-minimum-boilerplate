@@ -1,0 +1,15 @@
+/* .container--home{
+    width: 100vh;
+    height: 100vh;
+} */
+.imageElement{
+    margin: top 25px;
+    width: 50vh;
+    height: 50vh;
+}
+.imageElement--frame{
+   
+    width: 50vh;
+    height: 50vh;
+   
+}

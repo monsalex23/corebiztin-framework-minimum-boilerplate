@@ -1,0 +1,60 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home" 
+    ]
+  },
+ 
+  "flex-layout.row#home": {
+    "children": ["flex-layout.col#titulo-1","image#frame2"],
+    "props": {
+      "blockClass": "home"
+    }
+  },
+  "flex-layout.col#titulo-1": { 
+    "children": ["flex-layout.row#txt1", "flex-layout.row#txt2","flex-layout.row#txt3"],
+    "props": {
+      "blockClass": "titulo-1" 
+    } 
+  },
+  "flex-layout.row#txt1": { 
+    "children": ["rich-text#txt1"]
+  },
+  "rich-text#txt1": {
+    "props": {
+      "blockClass": "texto-frame",
+      "textPosition": "LEFT",
+      "text":" ### nosso framework\n ### de transformação\n ### digital \n \n ##### A Corebiz atua em toda jornada digital do usuário. Desde a configuração de plataformas, implementações e integrações, até a entrega de uma excelente experiência de consumo.\n \n##### Juntamente com toda a equipe de marketing trabalhando para uma melhor performance digital, o que qualifica ainda mais a entrega da jornada do usuário. \n \n \n##### Veja ao lado nosso framework \n https://framework-corebizteam.netlify.app/"   
+    }
+  },
+  "flex-layout.row#txt2": { 
+    "children": ["rich-text#txt2"]
+  },
+  "rich-text#txt2": {
+    "props": {
+      "blockClass": "texto-frame2",
+      "textPosition": "LEFT",
+      "text":" ##### business units "   
+    }
+  },
+  "image#frame2": {
+    "props": {
+      "blockClass": "frame",
+       "width": "60%",
+       "height": "60%",
+      "src": "assets/frame.png"
+    }
+  },
+  "flex-layout.row#txt3": { 
+    "children": ["rich-text#txt3"]
+  },
+  "rich-text#txt3": {
+    "props": {
+      "blockClass": "texto-frame3",
+      "textPosition": "LEFT",
+      "text":"###### experience\n###### technology \n###### marketing "   
+    }
+  }
+
+  
+}
